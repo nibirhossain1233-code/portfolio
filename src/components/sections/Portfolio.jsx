@@ -80,8 +80,8 @@ export default function Portfolio() {
               onClick={() => setActive(category)}
               className={`rounded-lg px-5 py-3 text-[13px] font-bold transition duration-300 sm:text-sm md:text-base ${
                 active === category
-                  ? "bg-gradient-to-r from-[#fd6f00] to-[#e46400] text-white"
-                  : "bg-white/[.08] text-[#aaa] hover:text-white"
+                  ? "bg-linear-to-r from-[#fd6f00] to-[#e46400] text-white"
+                  : "bg-white/8 text-[#aaa] hover:text-white"
               }`}
             >
               {category}
@@ -90,11 +90,11 @@ export default function Portfolio() {
         </div>
 
         {/* Mobile Projects */}
-        <div className="-mx-5 flex gap-[18px] overflow-x-auto px-5 pb-2 scrollbar-hide md:hidden">
+        <div className="-mx-5 flex gap-4.5 overflow-x-auto px-5 pb-2 scrollbar-hide md:hidden">
           {visible.map((project, i) => (
             <article
               key={`${project.title}-${i}`}
-              className="w-[284px] flex-none overflow-hidden rounded-2xl bg-white/[.08]"
+              className="w-71 flex-none overflow-hidden rounded-2xl bg-white/8"
             >
               <div className="aspect-square overflow-hidden bg-[#222]">
                 <img
@@ -104,7 +104,7 @@ export default function Portfolio() {
                 />
               </div>
 
-              <div className="flex h-[54px] items-center justify-between gap-2 px-4">
+              <div className="flex h-13.5 items-center justify-between gap-2 px-4">
                 <h3 className="truncate text-[14px] font-bold text-[#ddd]">
                   {project.title}
                 </h3>
@@ -122,9 +122,9 @@ export default function Portfolio() {
           {visible.map((project, i) => (
             <article
               key={`${project.title}-${i}`}
-              className="group overflow-hidden rounded-2xl bg-white/[.04]"
+              className="group overflow-hidden rounded-2xl bg-white/4"
             >
-              <div className="aspect-[4/3] overflow-hidden bg-[#222]">
+              <div className="aspect-4/3 overflow-hidden bg-[#222]">
                 <img
                   src={project.image}
                   alt={project.title}

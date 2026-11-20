@@ -58,7 +58,7 @@ export default function Hero() {
           </div>
 
           {/* Statistics */}
-          <div className="glass-card mx-auto mt-[50px] grid w-full max-w-[550px] grid-cols-3 rounded-lg p-4 text-left lg:mx-0">
+          <div className="glass-card mx-auto mt-12.5 grid w-full max-w-137.5 grid-cols-3 rounded-lg p-4 text-left lg:mx-0">
             {[
               [`${user.experiences}+`, "Experiences"],
               [`${user.projectDone}+`, "Project done"],
@@ -83,10 +83,10 @@ export default function Hero() {
         </div>
 
         {/* Profile Image */}
-        <div className="relative order-2 mx-auto w-full max-w-[520px] lg:order-2">
+        <div className="relative order-2 mx-auto w-full max-w-130 lg:order-2">
 
           {/* Background Circle */}
-          <div className="absolute bottom-0 left-1/2 aspect-square w-full -translate-x-1/2 rounded-full bg-[#1a1919] lg:w-[88%] lg:border-[2px] lg:border-accent/50 lg:bg-transparent" />
+          <div className="absolute bottom-0 left-1/2 aspect-square w-full -translate-x-1/2 rounded-full bg-[#1a1919] lg:w-[88%] lg:border-2 lg:border-accent/50 lg:bg-transparent" />
 
           {/* Portrait */}
           <div className="relative mx-auto aspect-[.665] w-[84%] overflow-hidden lg:w-[82%] lg:aspect-[.67]">
