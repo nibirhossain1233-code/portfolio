@@ -2,6 +2,7 @@ import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 import { PrimaryButton } from "@/components/common/Button";
 import { skills } from "@/data/skills";
+import { IoDownloadOutline } from "react-icons/io5";
 
 export default function About() {
   return (
@@ -48,8 +49,9 @@ export default function About() {
               <PrimaryButton
                 href="cv/cv.pdf"
                 download="Nibir-hossain-Cv.pdf"
-                className="w-21.25 md:w-35.25"
+                className="w-46.5 md:w-60 h-10 md:h-12 text-[16px] md:text-[20px] flex items-center gap-2.5"
               >
+                <IoDownloadOutline />
                 Download CV
               </PrimaryButton>
             </div>
