@@ -1,4 +1,3 @@
-
 import Container from "@/components/common/Container";
 import SectionHeading from "@/components/common/SectionHeading";
 import { PrimaryButton } from "@/components/common/Button";
@@ -15,7 +14,6 @@ export default function About() {
 
         {/* About Content */}
         <div className="flex flex-col items-center gap-8 lg:grid lg:grid-cols-[.85fr_1fr] lg:items-center lg:gap-12 xl:gap-20">
-
           {/* Profile Image */}
           <div className="relative mx-auto aspect-[.7] w-full max-w-99 overflow-hidden lg:aspect-[.66] lg:max-w-125">
             <div className="absolute bottom-0 left-1/2 h-[84%] w-[97%] -translate-x-1/2 rounded-t-full rounded-b-xl bg-white/4" />
@@ -29,18 +27,29 @@ export default function About() {
 
           {/* About Description */}
           <div className="w-full">
-            <p className="text-justify text-[16px] leading-[1.9] text-muted lg:text-[17px] lg:leading-[2.1]">
-              I'm a passionate Full Stack Developer with over a year of learning
-              experience in web development. I enjoy creating modern,
-              responsive, and user-friendly web applications using React.js,
-              Next.js, Node.js, and MongoDB. I'm always eager to learn new
-              technologies, improve my skills, and turn creative ideas into
-              functional digital experiences.
+            <p className="text-[16px] leading-[1.9] text-muted lg:text-[17px] lg:leading-[2.1]">
+              I'm a passionate Full Stack Developer with over a year of
+              experience in learning and building modern web applications. I
+              enjoy transforming creative ideas into functional, visually
+              appealing, and user-friendly digital experiences. With a strong
+              interest in frontend and backend development, I work with
+              technologies like React.js, Next.js, Node.js, and MongoDB to build
+              responsive, efficient, and scalable web solutions. I believe in
+              continuous learning and constantly exploring new technologies to
+              improve my skills and stay up to date with the latest trends in
+              web development. I pay close attention to detail, enjoy solving
+              problems, and strive to write clean, maintainable code. My goal is
+              to create meaningful digital experiences that not only look great
+              but also provide real value to users.
             </p>
 
             {/* Download CV */}
             <div className="mt-8 flex justify-center lg:justify-start">
-              <PrimaryButton href="cv/cv.pdf" download="Nibir-hossain-Cv.pdf">
+              <PrimaryButton
+                href="cv/cv.pdf"
+                download="Nibir-hossain-Cv.pdf"
+                className="w-21.25 md:w-35.25"
+              >
                 Download CV
               </PrimaryButton>
             </div>
