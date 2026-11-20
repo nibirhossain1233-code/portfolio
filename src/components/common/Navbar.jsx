@@ -24,7 +24,7 @@ export default function Navbar() {
         <button
           aria-label="Toggle navigation"
           onClick={() => setOpen(!open)}
-          className="text-2xl text-white lg:hidden"
+          className="text-3xl text-white lg:hidden"
         >
           {open ? <FiX /> : <FiMenu />}
         </button>
