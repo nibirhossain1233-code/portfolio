@@ -50,9 +50,9 @@ export default function Hero() {
 
           {/* Action Buttons */}
           <div className="mt-10 flex flex-wrap items-center justify-center gap-6 lg:justify-start">
-            <PrimaryButton className="w-21.25 md:w-35.25">Hire Me</PrimaryButton>
+            <PrimaryButton className="w-23.25 md:w-39 h-8.25 md:h-12 text-[14px] md:text-[20px]">Hire Me</PrimaryButton>
 
-            <PrimaryButton download="Nibir-hossain-Cv" href="cv/cv.pdf" className="w-21.25 md:w-35.25">
+            <PrimaryButton download="Nibir-hossain-Cv" href="cv/cv.pdf" className="w-21.25 md:w-52.25 h-8.25 md:h-12 text-[14px] md:text-[20px]">
               Download CV
             </PrimaryButton>
           </div>

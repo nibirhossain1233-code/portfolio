@@ -53,7 +53,7 @@ export default function Navbar() {
         {/* Hire Me Button */}
         <div className="justify-self-end lg:order-3">
           <div>
-            <PrimaryButton className="w-21.25 md:w-35.25">
+            <PrimaryButton className="w-21.25 md:w-35.25 text-[14px] md:text-[16px] h-8.25 md:h-10.75">
               Hire Me
             </PrimaryButton>
           </div>
