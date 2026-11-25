@@ -93,7 +93,7 @@ export default function Hero() {
             <img
               src="images/hero/profile.png"
               alt="Portrait of the portfolio designer"
-              className="h-full w-full object-cover object-top"
+              className="h-full w-full object-cover object-top grayscale"
             />
           </div>
         </div>

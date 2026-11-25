@@ -22,7 +22,7 @@ export default function About() {
             <img
               src="images/about-me/profile.png"
               alt="Designer portrait"
-              className="relative h-full w-full object-cover object-top"
+              className="relative h-full w-full object-cover object-top grayscale"
             />
           </div>
 
