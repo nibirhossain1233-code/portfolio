@@ -6,4 +6,5 @@ export const user ={
     experiences:1,
     projectDone:6,
     happyClients:2,
+    username:"nibirhossain"
 }
