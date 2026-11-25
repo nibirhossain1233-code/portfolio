@@ -71,7 +71,6 @@ export default function Contact() {
               <option value="" disabled>
                 Service Of Interest
               </option>
-              <option value="web-design">Web Design</option>
               <option value="frontend-development">
                 Frontend Development
               </option>
