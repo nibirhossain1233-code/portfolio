@@ -15,7 +15,7 @@ export default function Hero() {
           {/* Introduction */}
           <div>
             <p className="text-[16px] font-semibold tracking-[.7px] text-[#707070] md:text-[22px]">
-              Hi,
+              Hi, I am
             </p>
 
             <p className="mt-1 text-[20px] font-bold tracking-[.8px] text-muted md:mt-2 md:text-[26px]">
