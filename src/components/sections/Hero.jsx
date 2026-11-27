@@ -6,7 +6,7 @@ import { heroIcon } from "@/data/heroIcon";
 
 export default function Hero() {
   return (
-    <section id="home" className="pt-0 pb-0 md:pt-16 md:pb-20">
+    <section id="home" className="pt-18 pb-0 md:pt-28 md:pb-20">
       <Container className="grid items-center gap-6 lg:grid-cols-[1fr_.9fr] lg:gap-8">
 
         {/* Hero Content */}

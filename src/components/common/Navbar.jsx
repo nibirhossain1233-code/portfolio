@@ -18,7 +18,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="relative z-50 bg-page">
+    <header className="z-50 bg-page fixed top-0 left-0 w-full border-b border-white/10">
       <Container className="grid min-h-23 grid-cols-[24px_1fr_auto] items-center gap-3 lg:flex lg:justify-between lg:gap-8">
         {/* Mobile Menu Button */}
         <button
